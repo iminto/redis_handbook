@@ -99,7 +99,7 @@ redis> GET not-exists-key
 redis> SET not-exists-key "new-value" NX
 (nil)   # 键已经存在，设置失败
 
-redis> GEt not-exists-key
+redis> getbit not-exists-key
 "value" # 维持原值不变
 ```
 
@@ -13218,7 +13218,7 @@ Please check the [full list of Redis clients](http://redis.io/clients) to check 
 
 文档大部分中文翻译内容来自：huangz(https://github.com/huangz1990/redis)
 
-由 白菜 (https://github.com/iminto)进行了版本更新 ，加入了Redis 4和Redis 5更新的新内容，并完成了PDF制作。
+由 白菜 (https://github.com/iminto)进行了版本更新 ，加入了Redis 4和Redis 5更新的新内容，并完成了MarkDown文件和PDF制作。
 
 如果文档有误或需要加入追新，请联系我：waitfox@qq.com 
 
